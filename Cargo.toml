@@ -1,0 +1,10 @@
+[package]
+name = "container-store"
+version = "0.1.0"
+authors = ["Flakebi <flakebi@t-online.de>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1"
+libc = "0.2"
+structopt = "0.3"
