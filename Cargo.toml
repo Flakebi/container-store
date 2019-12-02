@@ -2,9 +2,13 @@
 name = "container-store"
 version = "0.1.0"
 authors = ["Flakebi <flakebi@t-online.de>"]
+repository = "https://github.com/Flakebi/container-store"
+description = "Limit access to the nix store for containers by creating overlay filesystems"
+readme = "README.md"
+license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
 failure = "0.1"
 libc = "0.2"
-structopt = "0.3"
+structopt = { version = "0.3", default-features = false }
